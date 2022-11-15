@@ -53,15 +53,27 @@ public class Hero {
     }
 
     //以下にgetter,setterメソッドを記述
+    /**
+     * private String Nameを取得するメソッド
+     */
     public String getName(){
         return this.name;
     }
-    public int getHitPont(){
+    /**
+     * private int hitPointを取得するメソッド
+     */
+    public int getHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * private int attackを取得するメソッド
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * private boolean deadを取得するメソッド
+     */
     public boolean getDead(){
         return this.dead;
     }

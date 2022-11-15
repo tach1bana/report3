@@ -2,11 +2,11 @@ package jp.ac.uryukyu.ie.e205731;
 
 /**
  * 敵クラス。
- *  String name; //敵の名前
- *  int hitPoint; //敵のHP
- *  int attack; //敵の攻撃力
- *  boolean dead; //敵の生死状態。true=死亡。
- * Created by tnal on 2016/11/13.
+ *  　String name; //敵の名前<br>
+ *   int hitPoint; //敵のHP<br>
+ *   int attack; //敵の攻撃力<br>
+ *   boolean dead; //敵の生死状態。true=死亡。<br>
+ * Created by e205731 on 2022/11/15.
  */
 public class Enemy {
     private String name;
@@ -55,15 +55,27 @@ public class Enemy {
     }
 
     //以下にgetter,setterメソッドを記述
+    /**
+     * private String Nameを取得するメソッド
+     */
     public String getName(){
         return this.name;
     }
-    public int getHitPont(){
+    /**
+     * private int hitPointを取得するメソッド
+     */
+    public int getHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * private int attackを取得するメソッド
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * private boolean deadを取得するメソッド
+     */
     public boolean getDead(){
         return this.dead;
     }
